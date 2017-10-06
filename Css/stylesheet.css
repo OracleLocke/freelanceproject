@@ -1,0 +1,99 @@
+/*Colors:
+	Orange: #FF6B35;
+	Tan: #F4E285;
+	White: #EFEFD0;
+	Dark Blue: #004E89;
+	Blue: #1A659E;
+*/
+
+body{
+	font-size:16px;
+	background-color:#004E89;
+	font-family: 'Open Sans', serif;
+	color: #EFEFD0;
+}
+.navbar {
+    margin-bottom: 0px;
+    height: 5vh;
+    background-color: #FF6B35;
+    
+}
+
+.navbar-brand{
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  size: 2em;
+}
+.fa{
+	color: #EFEFD0;
+}
+
+.nav-navbar{
+	padding-left: 50px;
+}
+li{
+	padding: 0px 5px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #EFEFD0;
+}
+
+.jumbotron{
+    height: 90vh;  /*Blog Topic: View port, making the jumbotron and the navbar the full height of the view port */
+    background-image: url('http://source.unsplash.com/Hl1stIQkVRw');
+    background-position: bottom;
+    background-size: cover;
+    -webkit-box-shadow: 0 10px 6px -3px #777;
+       -moz-box-shadow: 0 10px 6px -3px #777;
+            box-shadow: 0 10px 6px -3px #777;
+}
+.title{
+	color: #F4E285;
+}
+h3{
+	font-size:1.500em;
+}
+
+p{
+	line-height: 2em;
+	font-size:1.125em;
+	padding-bottom:20px;
+}
+a{
+	font-size:1.125em;
+}
+hr { 
+  border : 0px;
+  height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(244, 226, 133, 0.75), rgba(0, 0, 0, 0)); 
+}
+
+.img-circle{
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+
+footer{
+	margin-top: 20px;
+	background-color: #FF6B35;
+}
+
+#wedding, #senior, #events{
+	height:350px;
+	width: 350px;
+}
+.logo {
+  color:#fff;
+  font-weight:800;
+  font-size:14pt;
+  padding:25px;
+  text-align:center;
+}
+.line {
+  padding-top:20px;
+  white-space:no-wrap;
+  overflow:hidden;
+  text-align:center;
+}
